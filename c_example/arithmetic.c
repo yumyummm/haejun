@@ -7,8 +7,10 @@ int main(void)
     scanf("%d %d", &a, &b);
 
     printf("Plus %d + %d = %d\n", a, b, a + b);
-    printf("Minus %d + %d = %d\n", a, b, a - b);
-    printf("Multiply %d + %d = %d\n", a, b, a * b);
-    printf("Division %d + %d = %d\n", a, b, a / b);
-    printf("나머지 %d 나머지 %d = %d\n", a, b , a % b);
+    printf("Minus %d - %d = %d\n", a, b, a - b);
+    printf("Multiply %d * %d = %d\n", a, b, a * b);
+    printf("Division %d / %d = %d\n", a, b, a / b);
+    printf("나머지 %d %% %d = %d\n", a, b , a % b);
+
+    return 0;
 }

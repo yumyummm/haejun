@@ -1,5 +1,6 @@
 {
-    "files.associations": {
-        "triangles": "cpp"
-    }
+  "files.associations": {
+    "triangles": "cpp",
+    "stdio.h": "c"
+  }
 }
