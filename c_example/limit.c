@@ -1,10 +1,17 @@
 #include <limits.h>
 #include <stdio.h> 
 
-int main()
+void prinfHello();
+
+int main(void)
 {
-    printf("hello, world\n");
+    printHello();
     printf("char_bit : %d\n", CHAR_BIT);
     printf("char_max : %d\n", CHAR_MAX);
     return 0;
+}
+
+void printHello()
+{
+    printf("hello, world\n");
 }

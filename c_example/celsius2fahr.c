@@ -4,7 +4,7 @@ int main()
 {
     int celsius;
     celsius = 15;
-    printf("input selsius temp: 7");
+    printf("input celsius temp: 7\n");
     scanf("%d", &celsius);
     printf("celsius temp : %d \n", celsius);
     
