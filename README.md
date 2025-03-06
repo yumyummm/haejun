@@ -17,3 +17,14 @@
 - 4교시
   - 나머지 연산자를 이용하는 oddnum프로그램을 만들어 출력
   - conpare, compare2프로그램을 만들어 8비트값을 이용해 볼드, 이탤릭, 쉐도우, 언더라인을 적용하고 해제하는 3가지 표현방식 출력
+
+## 2025-03-06
+
+- 1교시
+  - if, if ~else문
+- 2교시
+  - switch case break문
+  - 삼항연산자: positive0negative프로그램을 통해 switch case break문에 반복적으로 사용된 printf함수를 1개로 처리하는 코드를 작성해봄.
+- 3교시
+- 4교시
+  - for문
