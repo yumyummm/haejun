@@ -3,6 +3,9 @@
     "triangles": "cpp",
     "stdio.h": "c",
     "stdlib.h": "c",
-    "time.h": "c"
-  }
+    "time.h": "c",
+    "serial.h": "c",
+    "myrandom.h": "c"
+  },
+  "cmake.sourceDirectory": "/home/yujin/kubig2025/sqlQuery"
 }

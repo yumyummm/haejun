@@ -1,0 +1,26 @@
+//문자열을 쓰는 2가지 방법
+#include <stdio.h>
+
+int main(void)
+{
+    const char *str1 = "hellow"; //변화를 줄 수 없다 포인터를 쓰면 값이 변화를 시킬 수 없는 위치에 저장됨
+    char str2[] = "hellow";// 변화 가능, 스택에 저장
+    char str3[] = {'h', 'e', 'l', 'l', 'o', '\0'};
+    char str4= 'h';
+
+    printf("%s\n", str1);
+    printf("%s\n", str2);
+    printf("%s\n", str3);
+    printf("%c\n", str4);
+             printf("%p\n", &str1);
+             printf("%p\n", &str2);
+             printf("%p\n", &str3);
+             printf("%p\n", &str4);
+
+    // str1[0] = 'H';
+    str2[0] = 'H';
+    printf("%s\n", str2);
+    return 0;
+
+}
+
