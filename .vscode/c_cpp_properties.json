@@ -9,12 +9,14 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/yujin/kubig2025/src",
+                "/home/yujin/kubig2025/lib/lcd",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/yujin/kubig2025/src",
+                    "/home/yujin/kubig2025/lib/lcd",
                     ""
                 ]
             },
