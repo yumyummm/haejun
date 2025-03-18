@@ -1,12 +1,31 @@
-//BigEndian, LittleEndian
-
-
+// 랜덤 한 수(0 ~ 100) 20개 프린트.
+// qsort 정렬 후 프린트.
 #include <stdio.h>
-int main(void){
-    int a = 0x12345678;
-    char *pA;
-    pA = (char *)&a;
-    printf("*pA : 0x%x\n", *pA);
-    
+#include <stdlib.h>
+#include <time.h>
+
+int compare(const void *a, const void *b)
+{
+    return (*(int *)a - *(int *)b);
+}
+
+int main(void)
+{
+    int nums[20] = {0};
+    srand(time(NULL));
+    for (int i = 0; i < 20; ++i)
+    {
+        nums[i] = rand() % 101;
+    }
+    for (int i = 0; i < 20; ++i)
+        printf("%d, ", nums[i]);
+    printf("\n");
+
+    // sorting
+    qsort(nums, 20, sizeof(nums[0]), compare);
+
+    for (int i = 0; i < 20; ++i)
+        printf("%d, ", nums[i]);
+    printf("\n");
     return 0;
 }

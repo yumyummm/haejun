@@ -5,7 +5,9 @@
     "stdlib.h": "c",
     "time.h": "c",
     "serial.h": "c",
-    "myrandom.h": "c"
-  },
-  "cmake.sourceDirectory": "/home/yujin/kubig2025/sqlQuery"
+    "myrandom.h": "c",
+    "string.h": "c",
+    "io.h": "c",
+    "delay.h": "c"
+  }
 }

@@ -1,10 +1,12 @@
-#include<stdio.h>
-int main(void){
-    
+#include <stdio.h>
+
+int main(void)
+{
     int a, b, temp;
     a = 10;
     b = 20;
-    //swap
+
+    // swap
     temp = a;
     a = b;
     b = temp;

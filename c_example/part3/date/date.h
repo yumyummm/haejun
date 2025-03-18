@@ -1,5 +1,4 @@
 #pragma once
- 
 #include <stdio.h>
 
 typedef struct
@@ -7,12 +6,7 @@ typedef struct
     int year;
     int month;
     int day;
-    int temp[31];
-
+    int temp[6];
 } Date;
- 
-
-#include "date.h"
 
 void printDate(Date *);
- 

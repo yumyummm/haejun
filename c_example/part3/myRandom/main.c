@@ -1,13 +1,13 @@
-#include "myRandom.h"
+static int seed = 1;
+// extern int seed;
 
-int main(void)
+void my_srand(int s)
 {
-    my_srand(time(NULL));
-    for (int i = 0; i < 10; ++i)
-    {
-        int num = my_rand();
-        printf("%d ,", num);
-    }
-    printf("\n");
-    return 0;
+    seed = s;
+}
+
+int my_rand(void)
+{
+    seed = seed * 11035152245 + 12345;
+    return ((unsigned)(seed / 65535)) % 32768;
 }
