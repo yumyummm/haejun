@@ -8,21 +8,21 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/yujin/kubig2025/src",
-                "/home/yujin/kubig2025/lib/lcd",
-                "/home/yujin/kubig2025/lib/sht20",
-                "/home/yujin/kubig2025/lib/at25",
-                "/home/yujin/kubig2025/lib/uart0",
+                "/home/yujin/haejun/src",
+                "/home/yujin/haejun/lib/lcd",
+                "/home/yujin/haejun/lib/sht20",
+                "/home/yujin/haejun/lib/at25",
+                "/home/yujin/haejun/lib/uart0",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/yujin/kubig2025/src",
-                    "/home/yujin/kubig2025/lib/lcd",
-                    "/home/yujin/kubig2025/lib/sht20",
-                    "/home/yujin/kubig2025/lib/at25",
-                    "/home/yujin/kubig2025/lib/uart0",
+                    "/home/yujin/haejun/src",
+                    "/home/yujin/haejun/lib/lcd",
+                    "/home/yujin/haejun/lib/sht20",
+                    "/home/yujin/haejun/lib/at25",
+                    "/home/yujin/haejun/lib/uart0",
                     ""
                 ]
             },
