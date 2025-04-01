@@ -103,3 +103,100 @@
 - 7교시
   -cmake로 디버깅
 - 8교시
+
+## 2025-03-13
+
+---
+
+- 1교시
+  - 복습
+  - CMake VsCode 설정 - 디버깅
+- 2교시
+  - cmake 프로젝트의 subdirectory 설정
+  - c89 Vscode 에서의 cmake kit 설정 문제가 있음
+    -> /home/aa/.local/share/CMakeTools/cmake-tools-kits.json 내용 변경.
+  - 동적 할당 설명 - malloc, calloc, realloc, free
+- 3교시
+  - 동적 할당 예제
+  - 공용체, 열거형 설명 - union, enum
+- 4교시
+  - 공용체, 열거형 예제 - unionExample.c enumExample.c
+- 5교시
+  - bookSql 에 enum, 동적할당 적용
+- 6교시
+  - sql 예제 - bookSql.c
+  - [과제]함수 추가 - deleteBook, updateBook, queryBook
+- 7교시
+  - 과제 수행
+- 8교시
+  - 정리
+
+---
+
+## 2025-03-14
+
+---
+
+- 1교시
+  - 복습
+  - CMakeLists.txt sub_directory 추가
+- 2교시
+  - [과제]함수 추가 - deleteBook, updateBook, queryBook
+- 3교시
+  - 표준 입력 함수 - scanf, sscanf, fscanf, getchar, gets, fgetc, fgets
+- 4교시
+  - 표준 출력 함수 - printf, sprintf, fprintf, putchar, puts, fputc, fputs
+  - fflush() 예제
+- 5교시
+  - Sql 분할 컴파일
+- 6교시
+  - 교재 살펴보기
+- 7교시
+  - 교재 살펴보기
+  - 볼링 게임 안내 [C 언어] 메인 과제
+  - 규칙: 개인전
+    - [각자 자신의 점수를 기록하고 마지막에 총점을 계산하여 승자를 결정한다.](https://m.blog.naver.com/stupidon9876/221436908915)
+    - [점수 계산 링크](https://appbokk.com/entry/%EB%B3%BC%EB%A7%81-%EC%A0%90%EC%88%98-%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95)
+- 8교시
+  - 정리
+
+---
+
+## 2025-03-17
+
+---
+
+- 1교시
+  - 복습 - 표준 입출력 함수
+  - [실습]볼링 게임
+- 2교시
+  - [실습]볼링 게임
+- 3교시
+- 4교시
+  - [실습]볼링 게임
+- 4교시
+  - [실습]볼링 게임
+- 5교시
+- 6교시
+  - [실습]볼링 게임
+- 7교시
+  - 시험 - 구글 폼
+- 8교시
+  - 정리
+
+
+## 2025-04-04
+
+- 1교시
+  - 라즈베리파이 OS 이미지 굽기
+- 2교시
+  - 운영체제론 학습
+  - 리눅스 개념 학습
+- 3교시
+  - VsCode ssh remote 설정
+- 4교시
+  - WirngPi 설치
+- 5교시
+- 6교시
+- 7교시
+- 8교시
