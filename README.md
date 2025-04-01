@@ -197,6 +197,10 @@
 - 4교시
   - WirngPi 설치
 - 5교시
+  - BCM 기준 GPIO 핀번호를 사용해 스위치로 LED 제어(switch_led.c)
 - 6교시
+  - SOFTWARE ISR로 라즈베리파이의 LED 제어(interrupt.c)
 - 7교시
+  - WiringPi 없이 라즈베리파이를 구동하는 코드 작성(device_gpio.c)
 - 8교시
+  - Linux kernel module을 만들어 kernel에 삽입, 삭제(module_exam.c)
