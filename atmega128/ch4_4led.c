@@ -9,9 +9,9 @@ int main()
     {
         while(1)
         {
-            if(led_data >= 0x0f)
+            if(led_data >= 0x08)
                 direction = 0;
-            if(led_data == 0){
+            if(led_data == 1){
                 direction =1;
                 led_data = 1;
             }

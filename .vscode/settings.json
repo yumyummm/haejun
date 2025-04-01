@@ -8,6 +8,10 @@
     "myrandom.h": "c",
     "string.h": "c",
     "io.h": "c",
-    "delay.h": "c"
+    "delay.h": "c",
+    "CH10.C": "cpp",
+    "interrupt.h": "c",
+    "uart0.h": "c",
+    "at25160.h": "c"
   }
 }

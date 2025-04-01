@@ -11,7 +11,7 @@ int main()
             led_data++;
             if(led_data > 0x0F) 
                 led_data = 0;
-                _delay_ms(500);
+            _delay_ms(500);
         }
     }
     

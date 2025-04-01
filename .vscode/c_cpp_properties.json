@@ -10,6 +10,9 @@
             "includePath": [
                 "/home/yujin/kubig2025/src",
                 "/home/yujin/kubig2025/lib/lcd",
+                "/home/yujin/kubig2025/lib/sht20",
+                "/home/yujin/kubig2025/lib/at25",
+                "/home/yujin/kubig2025/lib/uart0",
                 ""
             ],
             "browse": {
@@ -17,6 +20,9 @@
                 "path": [
                     "/home/yujin/kubig2025/src",
                     "/home/yujin/kubig2025/lib/lcd",
+                    "/home/yujin/kubig2025/lib/sht20",
+                    "/home/yujin/kubig2025/lib/at25",
+                    "/home/yujin/kubig2025/lib/uart0",
                     ""
                 ]
             },

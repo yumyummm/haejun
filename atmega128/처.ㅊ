@@ -1,0 +1,65 @@
+#include "uart0.h"
+#include <avr/interrupt.h>
+#include <avr/io.h>
+#include <stdio.h>
+
+volatile uint8_t intData = 0;
+
+int main()
+{
+    uart0Init();
+    stdin = &INPUT;
+    stdout = &OUTPUT;
+    
+    DDRE = 0X02; //RX입력, TX가 출력 sw0-3입력
+
+    EICRB = 0xFF; //4567전부 상승 엣지에서 동작 cf) 교재 289페이지 참조
+    EIMSK = 0xF0; //4567 허용
+    EIFR = 0xF0; //4567 클리어
+
+    sei();
+
+    printf("Hi, I'm Atmega128");
+    fflush(stdout);
+    while (1)
+    {
+        if(intData != '0'){
+
+            printf("\n\r Input Switch: %c", intData);
+            intData = '0';
+
+        }
+
+    }
+    return 0;
+}
+
+ISR(INT4_vect)
+{
+    cli();
+    intData = '1';
+    sei();
+}
+
+ISR(INT5_vect)
+{
+    cli();
+    intData = '2';
+    sei();
+}
+
+ISR(INT6_vect)
+{
+    cli();
+    intData = '3';
+    sei();
+}
+
+ISR(INT7_vect)
+{
+    cli();
+    intData = '4';
+    sei();
+}
+
+//서비스루틴에 너무 복잡한 함수 같은 걸 넣으면 처리속도가 길어져서 내부 타이머의 시간이 부정확해질 수 있으니까 복잡한 건 메인함수에서 돌려라!
