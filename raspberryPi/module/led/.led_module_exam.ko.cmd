@@ -1,0 +1,1 @@
+savedcmd_/home/yj/haejun/raspberryPi/module/led/led_module_exam.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/yj/haejun/raspberryPi/module/led/led_module_exam.ko /home/yj/haejun/raspberryPi/module/led/led_module_exam.o /home/yj/haejun/raspberryPi/module/led/led_module_exam.mod.o;  true

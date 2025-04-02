@@ -185,7 +185,7 @@
   - 정리
 
 
-## 2025-04-04
+## 2025-04-01
 
 - 1교시
   - 라즈베리파이 OS 이미지 굽기
@@ -204,3 +204,30 @@
   - WiringPi 없이 라즈베리파이를 구동하는 코드 작성(device_gpio.c)
 - 8교시
   - Linux kernel module을 만들어 kernel에 삽입, 삭제(module_exam.c)
+
+  ## 2025-04-02
+
+
+- 1교시
+  - 복습
+  - 여러 프로세스 다루기 ( &, nohup, bg, fg, jobs, ps, kill, top, htop)
+- 2교시
+  - 데몬으로 프로세스 작동 시키기
+- 3교시
+  - mydaemon.service 파일, mydaemon.sh 파일 작성
+  - systemctl 명령어 설명
+- 4교시
+  - wiringPi 로 pwm 제어하기, 버저 설정
+  - software pwm 제어하기, hardware pwm 제어하기, buzzer 제어하기
+- 5교시
+  - PCA9685 설명 (전자부품 데이터시트)
+  - PCA9685 제어하기
+- 6교시
+  - 소프트웨어 PWM 제어(soft_tone_buzzer.c)
+  - 하드웨어 PWM 제어(hard_tone_buzzer.c)
+- 7교시
+  - RGB LED 제어(i2c_rgb_led)
+  - 스위치로 RGB LED 제어(i2c_rgb_led_switch)
+- 8교시
+  - 서브 모터 제어(i2c_servo)
+  - 정리
