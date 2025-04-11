@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "list.h"
+#include <assert.h>
 
 static Node *createNode(int data, Node *next) //static 넣어서 메인에서는 접근 못 함.
 {
