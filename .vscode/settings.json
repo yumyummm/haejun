@@ -12,6 +12,7 @@
     "CH10.C": "cpp",
     "interrupt.h": "c",
     "uart0.h": "c",
-    "at25160.h": "c"
+    "at25160.h": "c",
+    "list.h": "c"
   }
 }
