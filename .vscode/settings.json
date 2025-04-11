@@ -14,6 +14,7 @@
     "uart0.h": "c",
     "at25160.h": "c",
     "list.h": "c",
-    "list": "c"
+    "list": "c",
+    "iostream": "cpp"
   }
 }
