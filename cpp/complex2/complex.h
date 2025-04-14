@@ -18,12 +18,12 @@ public:
     double real();
     double imag();
 
-    void real(double re);//실수부를 받아서 실수부를 세팅하는 함수
-    void imag(double im);//허수부를 받아서 허수부를 세팅하는 함수
+    void real(double re);
+    void imag(double im);
 
-private: //implementation details
-    double re; //실수부 real part
-    double im; //허수부 imaginary part
+private: 
+    double re; 
+    double im; 
 };
 
 #endif

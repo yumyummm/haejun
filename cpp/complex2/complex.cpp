@@ -14,8 +14,8 @@ Complex::Complex(double re)
 
 Complex::Complex(double re, double im)
 {
-    this->re = re; //this->re는 클래스의 멤버변수, re는 매개변수
-    this->im = im; //this->im는 클래스의 멤버변수, im은 매개변수
+    this->re = re; 
+    this->im = im; 
 }
 
 Complex::~Complex()
@@ -25,20 +25,20 @@ Complex::~Complex()
 
 // void Complex::operator=(Complex c)
 // {
-//     this->re = c.re; //c3는 매개변수, this->re는 클래스의 멤버변수
-//     this->im = c.im; //c3는 매개변수, this->im는 클래스의 멤버변수
+//     this->re = c.re; 
+//     this->im = c.im; 
 // }
 
 // void Complex::operator=(const Complex *pc)
 // {
-//     this->re = pc->re; //c3는 매개변수, this->re는 클래스의 멤버변수
-//     this->im = pc->im; //c3는 매개변수, this->im는 클래스의 멤버변수
+//     this->re = pc->re; 
+//     this->im = pc->im; 
 // }
 
 void Complex::operator=(const Complex& rc)
 {
-    this->re = rc.re; //c3는 매개변수, this->re는 클래스의 멤버변수
-    this->im = rc.im; //c3는 매개변수, this->im는 클래스의 멤버변수
+    this->re = rc.re; 
+    this->im = rc.im; 
 }
 
 bool Complex::operator==(const Complex& rc)
