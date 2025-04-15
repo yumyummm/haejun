@@ -1,7 +1,12 @@
 #ifndef COMPLEX_H
 #define COMPLEX_H
+#include <iostream>
+class Complex; // 클래스 선언 (7번에 정의되고 있는데 6번에 이미 클래스 레퍼런스를 해버려서 이렇게 해줘야 함.) 
+std::ostream& operator<<(std::ostream& out, const Complex& rhs); 
 
 class Complex {
+friend std::ostream& operator<<(std::ostream& out, const Complex& rhs); 
+
 private: // attributes
     double re;
     double im;

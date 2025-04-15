@@ -15,11 +15,13 @@ int main()
     } else {std::cout << "c1 and c3 are not equal" << std::endl;
     }
 
+    //std::cout << c1; //(3.0, 4.0) std::cout.operatior<<(c1) or operator<<(std::cout, c1) 
+    std::cout << c1 << std::endl;
+    std::cout << c2 << std::endl;
+    std::cout << c3 << std::endl; 
+    std::cout << c4 << std::endl;
+
     return 0;
 }
 
 
-/*int a.b.c;
-a=b=c=100; 결과값: 100
-이 코드도 c1=c2=c3로 daisy chain이 가능함.
-*/

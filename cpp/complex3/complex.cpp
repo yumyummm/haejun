@@ -1,5 +1,11 @@
 #include"complex.h"
 
+std::ostream& operator<<(std::ostream& out, const Complex& rhs)
+{
+    out << "(" << rhs.re << ", " << rhs.im << "i)"; //operator<<는 전역함수이기 때문에 private에 있는 re, im에 접근할 수 없음. 그래서 get함수를 하나 만들어 쓰든지, friend로!
+    return out;
+}   
+
 Complex::Complex(double re, double im) //default constructor
 {
     this->re = re;
