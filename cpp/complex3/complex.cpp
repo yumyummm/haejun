@@ -2,8 +2,7 @@
 
 std::ostream& operator<<(std::ostream& out, const Complex& rhs)
 {
-    out << "(" << rhs.re << ", " << rhs.im << "i)"; //operator<<는 전역함수이기 때문에 private에 있는 re, im에 접근할 수 없음. 그래서 get함수를 하나 만들어 쓰든지, friend로!
-    return out;
+    out << "(" << rhs.re << ", " << rhs.im << "i)"; 
 }   
 
 Complex::Complex(double re, double im) //default constructor
@@ -34,4 +33,18 @@ Complex& Complex::operator=(const Complex& rhs)
 bool Complex::operator==(const Complex& rhs)
 {
     return (this->re == rhs.re && this->im == rhs.im);
+}
+
+const Complex Complex::operator+(const Complex& rhs)
+{
+    Complex result(this->re + rhs.re, this->im + rhs.im);
+    
+    return result;
+}
+
+const Complex Complex::operator-(const Complex& rhs)
+{
+    Complex result(this->re - rhs.re, this->im - rhs.im);
+    
+    return result; 
 }

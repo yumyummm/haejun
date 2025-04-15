@@ -15,6 +15,9 @@ int main()
     } else {std::cout << "c1 and c3 are not equal" << std::endl;
     }
 
+    c4 = c2 + c3; //c2.operator+(c3) or operator+(c2, c3)
+    c4 = c2 - c3;
+
     //std::cout << c1; //(3.0, 4.0) std::cout.operatior<<(c1) or operator<<(std::cout, c1) 
     std::cout << c1 << std::endl;
     std::cout << c2 << std::endl;
