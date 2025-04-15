@@ -1,12 +1,11 @@
 #include "rational.h"
 #include <cassert>
 
-Rational::Rational(int num, int den)
+Rational::Rational()
 {
-    assert(den ); // den가 0이 아니어야 함.
-    this->num = num;
-    this->den = den;
-};
+    this->num = 0;
+    this->den = 1;
+}
 
 Rational::Rational(int num)
 {
@@ -14,11 +13,12 @@ Rational::Rational(int num)
     this->den = 1;
 }
 
-Rational::Rational()
+Rational::Rational(int num, int den)
 {
-    this->num = 0;
-    this->den = 1;
-}
+    assert(den ); // den가 0이 아니어야 함.
+    this->num = num;
+    this->den = den;
+};
 
 Rational::~Rational()
 {
@@ -28,6 +28,18 @@ Rational::~Rational()
 int Rational::getNum()
 {
     return this->num;
+}
+
+void Rational::operator=(const Rational& rr)
+{
+    this->num = rr.num; 
+    this->den = rr.den; 
+}
+
+
+bool Rational::operator==(const Rational& rr)
+{
+    return (this->num == rr.num && this->den == rr.den); 
 }
 
 int Rational:: getDen()

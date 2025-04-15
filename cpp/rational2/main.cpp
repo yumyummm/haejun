@@ -12,7 +12,8 @@ int main()
     
     r1 = r3;
 
-    if (r1.getNum() == r3.getNum() && r1.getDen() == r3.getDen())
+    // if (r1.getNum() == r3.getNum() && r1.getDen() == r3.getDen())
+    if(r1==r3)
     {
         std::cout << "r1 and r3 are equal" << std:: endl;     
     } else {
