@@ -34,7 +34,11 @@ int main()
 
     int i;
     for(i=0; i<5;++i)
-    {if(nums)}
+    {if(nums3[i] != nums4[i])
+      {
+          break;
+      }
+  }
 
      if(1==5){ 
         printf("nums3 and nums4 are equal\n"); 
