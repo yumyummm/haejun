@@ -25,7 +25,7 @@ int Stack::remain() const
 
 bool Stack::isEmpty() const
 {
-    return tos_ == 0;  // 스택이 비었을 때 tos_가 0이어야 합니다.
+    return tos_ == 0; // 변경: `tos_ == size`를 `tos_ == 0`으로 수정.
 }
 
 bool Stack::isFull() const
@@ -45,9 +45,7 @@ int Stack::pop()
     assert(!this->isEmpty());
     --tos_;
     return pArr_[tos_];
-    
 }
-
 
 Stack::~Stack()
 {
