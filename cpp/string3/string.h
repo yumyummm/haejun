@@ -20,13 +20,33 @@ public:
     bool operator==(const String& rhs) const;
 
     const String operator+(const String& rhs) const;
-
-    // String *operator&() { return this; }
-    // const String *operator&() const { return this; }
-
+    
     const char *c_str() const;
     int size() const;
     
+        // String *operator&() { return this; }
+        // const String *operator&() const { return this; }
+    
 };
+
+inline std::ostream& operator<<(std::ostream& out, const String& rhs)
+{
+    return out << rhs.str_;
+}
+
+inline String::~String()
+{
+    delete [] str_;
+}
+
+const char *String::c_str() const
+{
+    return str_;
+}
+
+int String::size() const
+{
+    return len_;
+}
 
 #endif

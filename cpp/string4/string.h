@@ -1,13 +1,15 @@
 #ifndef STRING_H
 #define STRING_H
 #include <iostream>
+#include "stringRep.h"
 
 class String {
 friend std::ostream& operator<<(std::ostream& out, const String& rhs);
 
 private:
-    char *str_;
-    int len_;
+    // char *str_;
+    // int len_;
+    StringRep *pRep_;
 
 public:
     String();

@@ -2,11 +2,6 @@
 #include <cassert>
 #include "string.h"
 
-std::ostream& operator<<(std::ostream& out, const String& rhs)
-{
-    return out << rhs.str_;
-}
-
 String::String()
 : str_(new char[1]), len_(0)
 {
@@ -35,11 +30,6 @@ String::String(const String& rhs)
     strcpy(str_, rhs.str_);
 
     // len_ = rhs.len_;
-}
-
-String::~String()
-{
-    delete [] str_;
 }
 
 String& String::operator=(const String& rhs)
@@ -71,12 +61,3 @@ const String String::operator+(const String& rhs) const
     return result;
 }
 
-const char *String::c_str() const
-{
-    return str_;
-}
-
-int String::size() const
-{
-    return len_;
-}
