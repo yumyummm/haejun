@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/positive0negative.dir/positive0negative.c.o -o positive0negative 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ex2_longest.dir/ex2_longest.cpp.o -o ex2_longest 

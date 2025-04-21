@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 CMakeFiles/array2.dir/array2/complex.cpp.o CMakeFiles/array2.dir/array2/main.cpp.o -o array2 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 CMakeFiles/rational3.dir/rational3/main.cpp.o CMakeFiles/rational3.dir/rational3/rational.cpp.o -o rational3 

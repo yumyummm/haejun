@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/randomTo100.dir/randomTo100.c.o -o randomTo100 

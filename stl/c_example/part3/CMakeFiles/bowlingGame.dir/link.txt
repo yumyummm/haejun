@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/bowlingGame.dir/bowlingGame.c.o -o bowlingGame 

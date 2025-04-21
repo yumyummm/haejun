@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 CMakeFiles/boundaArray.dir/boundaArray/array.cpp.o CMakeFiles/boundaArray.dir/boundaArray/boundaryArray.cpp.o CMakeFiles/boundaArray.dir/boundaArray/main.cpp.o CMakeFiles/boundaArray.dir/boundaArray/safeArray.cpp.o -o boundaArray 

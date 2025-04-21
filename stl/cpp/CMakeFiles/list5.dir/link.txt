@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 CMakeFiles/list5.dir/list5/list.cpp.o CMakeFiles/list5.dir/list5/main.cpp.o -o list5 

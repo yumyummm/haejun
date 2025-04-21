@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/for.dir/for.c.o -o for 

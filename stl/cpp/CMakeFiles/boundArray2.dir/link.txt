@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 CMakeFiles/boundArray2.dir/boundArray2/complex.cpp.o CMakeFiles/boundArray2.dir/boundArray2/main.cpp.o -o boundArray2 

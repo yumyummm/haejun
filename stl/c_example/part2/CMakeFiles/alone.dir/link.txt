@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/alone.dir/alone.c.o -o alone 

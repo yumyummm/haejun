@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/charGetPut.dir/charGetPut.c.o -o charGetPut 

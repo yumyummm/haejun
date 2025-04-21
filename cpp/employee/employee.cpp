@@ -7,25 +7,8 @@ Employee::Employee(int id, String name, Employee *pManager)
     this->pManager = pManager;
 }
 
-// Employee::~Employee()
-// {
-// }
+// Employee::~Employee() { }
 
-int Employee::getId()
-{
-    return this->id;
-}
-String Employee::getName()
-{
-    return this->name;
-}
-
-Employee* Employee::getManager()
-{
-    return this->pManager;
-}
-
-bool Employee::isManager()
-{
-    return this->pManager == NULL;
-}
+int Employee::getId() { return this->id; }
+String Employee::getName() { return this->name; }
+Employee* Employee::getManager() { return this->pManager; }

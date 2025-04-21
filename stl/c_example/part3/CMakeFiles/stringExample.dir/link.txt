@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/stringExample.dir/stringExample.c.o -o stringExample 

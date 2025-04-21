@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/one2tendowhile.dir/one2tendowhile.c.o -o one2tendowhile 
