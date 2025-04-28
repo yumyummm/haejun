@@ -1481,6 +1481,110 @@ ex2_string_vector/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
 .PHONY : ex2_string_vector/fast
 
+#=============================================================================
+# Target rules for targets named ex4_cstring
+
+# Build rule for target.
+ex4_cstring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_cstring
+.PHONY : ex4_cstring
+
+# fast build rule for target.
+ex4_cstring/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_cstring.dir/build.make stl/CMakeFiles/ex4_cstring.dir/build
+.PHONY : ex4_cstring/fast
+
+#=============================================================================
+# Target rules for targets named ex5_string_find
+
+# Build rule for target.
+ex5_string_find: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_string_find
+.PHONY : ex5_string_find
+
+# fast build rule for target.
+ex5_string_find/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
+.PHONY : ex5_string_find/fast
+
+#=============================================================================
+# Target rules for targets named ex6_iterator
+
+# Build rule for target.
+ex6_iterator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_iterator
+.PHONY : ex6_iterator
+
+# fast build rule for target.
+ex6_iterator/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
+.PHONY : ex6_iterator/fast
+
+#=============================================================================
+# Target rules for targets named ex7_map
+
+# Build rule for target.
+ex7_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex7_map
+.PHONY : ex7_map
+
+# fast build rule for target.
+ex7_map/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
+.PHONY : ex7_map/fast
+
+#=============================================================================
+# Target rules for targets named ex8_vector_list1
+
+# Build rule for target.
+ex8_vector_list1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_vector_list1
+.PHONY : ex8_vector_list1
+
+# fast build rule for target.
+ex8_vector_list1/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list1.dir/build.make stl/CMakeFiles/ex8_vector_list1.dir/build
+.PHONY : ex8_vector_list1/fast
+
+#=============================================================================
+# Target rules for targets named ex8_vector_list2
+
+# Build rule for target.
+ex8_vector_list2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_vector_list2
+.PHONY : ex8_vector_list2
+
+# fast build rule for target.
+ex8_vector_list2/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/build
+.PHONY : ex8_vector_list2/fast
+
+#=============================================================================
+# Target rules for targets named ex9_lambda
+
+# Build rule for target.
+ex9_lambda: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_lambda
+.PHONY : ex9_lambda
+
+# fast build rule for target.
+ex9_lambda/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
+.PHONY : ex9_lambda/fast
+
+#=============================================================================
+# Target rules for targets named data_process
+
+# Build rule for target.
+data_process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_process
+.PHONY : data_process
+
+# fast build rule for target.
+data_process/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
+.PHONY : data_process/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1515,6 +1619,7 @@ help:
 	@echo "... complex2"
 	@echo "... complex3"
 	@echo "... complex4"
+	@echo "... data_process"
 	@echo "... dice"
 	@echo "... dynamicAllocation"
 	@echo "... employee"
@@ -1524,6 +1629,13 @@ help:
 	@echo "... ex1_vector"
 	@echo "... ex2_longest"
 	@echo "... ex2_string_vector"
+	@echo "... ex4_cstring"
+	@echo "... ex5_string_find"
+	@echo "... ex6_iterator"
+	@echo "... ex7_map"
+	@echo "... ex8_vector_list1"
+	@echo "... ex8_vector_list2"
+	@echo "... ex9_lambda"
 	@echo "... fahr2celsius"
 	@echo "... fflushEx"
 	@echo "... fileDescriptor"

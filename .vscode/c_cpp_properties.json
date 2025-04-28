@@ -4,43 +4,40 @@
 // https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
 //
 {
-    "configurations": [
-        {
-            "name": "PlatformIO",
-            "includePath": [
-                "/home/yj/haejun/src",
-                "/home/yj/haejun/lib/lcd",
-                "/home/yj/haejun/lib/sht20",
-                "/home/yj/haejun/lib/at25",
-                "/home/yj/haejun/lib/uart0",
-                ""
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "path": [
-                    "/home/yj/haejun/src",
-                    "/home/yj/haejun/lib/lcd",
-                    "/home/yj/haejun/lib/sht20",
-                    "/home/yj/haejun/lib/at25",
-                    "/home/yj/haejun/lib/uart0",
-                    ""
-                ]
-            },
-            "defines": [
-                "F_CPU=16000000L",
-                "PLATFORMIO=60118",
-                "ARDUINO_AVR_ATmega128",
-                "__AVR_ATmega128__",
-                ""
-            ],
-            "cStandard": "gnu11",
-            "cppStandard": "gnu++11",
-            "compilerPath": "/home/yj/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
-            "compilerArgs": [
-                "-mmcu=atmega128",
-                ""
-            ]
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "PlatformIO",
+      "includePath": [
+        "/home/yj/haejun/src",
+        "/home/yj/haejun/lib/lcd",
+        "/home/yj/haejun/lib/sht20",
+        "/home/yj/haejun/lib/at25",
+        "/home/yj/haejun/lib/uart0",
+        ""
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "path": [
+          "/home/yj/haejun/src",
+          "/home/yj/haejun/lib/lcd",
+          "/home/yj/haejun/lib/sht20",
+          "/home/yj/haejun/lib/at25",
+          "/home/yj/haejun/lib/uart0",
+          ""
+        ]
+      },
+      "defines": [
+        "F_CPU=16000000L",
+        "PLATFORMIO=60118",
+        "ARDUINO_AVR_ATmega128",
+        "__AVR_ATmega128__",
+        ""
+      ],
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++23",
+      "compilerPath": "/home/yj/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+      "compilerArgs": ["-mmcu=atmega128", ""]
+    }
+  ],
+  "version": 4
 }

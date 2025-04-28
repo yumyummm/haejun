@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/baseball.dir/baseball.c.o -o baseball 

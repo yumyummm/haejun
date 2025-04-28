@@ -62,6 +62,18 @@
     "complex": "cpp",
     "sstream": "cpp",
     "cassert": "cpp",
-    "cstring": "cpp"
+    "cstring": "cpp",
+    "map": "cpp",
+    "ctime": "cpp",
+    "fstream": "cpp",
+    "set": "cpp",
+    "chrono": "cpp",
+    "condition_variable": "cpp",
+    "ratio": "cpp",
+    "mutex": "cpp",
+    "semaphore": "cpp",
+    "shared_mutex": "cpp",
+    "stop_token": "cpp",
+    "thread": "cpp"
   }
 }
